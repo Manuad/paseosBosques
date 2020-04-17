@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alta de administrador</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo_altas.css">
+    </head>
+    <body>
+        <h1>Alta de administrador Paseos del Bosque I</h1>
+        <div >
+            <form name="formalta" method="post" action="guardar_usuario.jsp" onsubmit="reset" >
+                <label>Nombre:   </label> &nbsp;&nbsp;&nbsp; <input type="text" name="nombres" placeholder="Ingresa el nombre"> <br><br>
+                <label>Apellidos: </label> &nbsp; <input type="text" name="apellidos" placeholder="Ingresa los apellidos"> <br><br>
+                <label>C.U.R.P.: </label> &nbsp;&nbsp; <input type="text" name="curp" placeholder="Ingresa el curp"> <br><br>
+                <label>Constraseña: </label> &nbsp; <input type="password" name="contra1" placeholder="Ingrese la contraseña"> <br><br>
+                <label>Constraseña: </label> &nbsp; <input type="password" name="contra2" placeholder="Repita la contraseña"> <br><br>
+                <button class="btn-primary" name="btn_guardar" type="submit">Guardar</button>
+            </form>
+        </div>
+    </body>
+</html>

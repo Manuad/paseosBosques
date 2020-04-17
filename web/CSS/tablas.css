@@ -1,0 +1,24 @@
+table {
+    width: 900px;
+    margin: auto;
+}
+th{
+    width: 30px;
+    border-radius: .5em;
+    font-family: sans-serif;
+    size: 21px;
+}
+tr{
+    margin: auto;
+    width: 150px;
+    border-radius: .5em;
+    font-family: sans-serif;
+    size: 21px;
+}
+td{
+    margin: auto;
+    width: 25px;
+    border-radius: .5em;
+    font-family: sans-serif;
+    size: 21px;
+}
